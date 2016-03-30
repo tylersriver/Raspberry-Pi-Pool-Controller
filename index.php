@@ -75,7 +75,7 @@ Last Revision: 7 March 2016
                 }
                 $.ajax({
                     type: "POST",
-                    url: "heaterUpdate.php",
+                    url: "supporting/php/equipment_update/heaterUpdate.php",
                     data: "value=" + b,
                     success: function (html) {
                         $("#display").html(html).show();
@@ -100,7 +100,7 @@ Last Revision: 7 March 2016
 
                         $.ajax({
                             type: "POST",
-                            url: "pumpUpdate.php",
+                            url: "supporting/php/equipment_update/pumpUpdate.php",
                             data: "value=" + a,
                             success: function (html) {
                                 $("#display").html(html).show();

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
+    <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="Reorganization for pumpUpdate and heaterUpdate">
       <change type="MOVED" beforePath="$PROJECT_DIR$/heaterUpdate.php" afterPath="$PROJECT_DIR$/supporting/php/equipment_update/heaterUpdate.php" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/pumpUpdate.php" afterPath="$PROJECT_DIR$/supporting/php/equipment_update/pumpUpdate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="PHPStorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +59,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
-                <marker date="1458918094000" expanded="true" signature="6065:6114" placeholder="select * fro... status" />
-                <marker date="1458918094000" expanded="true" signature="6275:6326" placeholder="select * fro... pumpStatus" />
+                <marker date="1459376361000" expanded="true" signature="6129:6178" placeholder="select * fro... status" />
+                <marker date="1459376361000" expanded="true" signature="6339:6390" placeholder="select * fro... pumpStatus" />
               </folding>
             </state>
           </provider>
@@ -80,6 +81,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Preston Kemp &lt;preston.kemp@eagles.oc.edu&gt;." />
+        <option value="Preston Kemp &lt;preston.kemp@eagles.oc.edu&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -118,13 +125,13 @@
         <option value="$PROJECT_DIR$/graph/getTemperature.php" />
         <option value="$PROJECT_DIR$/pumpUpdate.php" />
         <option value="$PROJECT_DIR$/heaterUpdate.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/stats/index.php" />
         <option value="$PROJECT_DIR$/stats/weeklyStats.php" />
         <option value="$PROJECT_DIR$/ngTimepicker-master/example.html" />
         <option value="$PROJECT_DIR$/scheduler/index.php" />
         <option value="$PROJECT_DIR$/settings/index.php" />
         <option value="$PROJECT_DIR$/settings/ng.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -322,7 +329,7 @@
       <option name="presentableId" value="Default" />
       <updated>1456870741206</updated>
       <workItem from="1459367619849" duration="2507000" />
-      <workItem from="1459375518627" duration="529000" />
+      <workItem from="1459375518627" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -394,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459376193288</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reorganization for pumpUpdate and heaterUpdate">
+      <created>1459376307564</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1459376307564</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3036000" />
+    <option name="totallyTimeSpent" value="3156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +467,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Fix pumpUpdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix pumpUpdate" />
+    <MESSAGE value="Reorganization for pumpUpdate and heaterUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganization for pumpUpdate and heaterUpdate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,11 +758,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
-            <marker date="1458918094000" expanded="true" signature="6065:6114" placeholder="select * fro... status" />
-            <marker date="1458918094000" expanded="true" signature="6275:6326" placeholder="select * fro... pumpStatus" />
+            <marker date="1459376361000" expanded="true" signature="6129:6178" placeholder="select * fro... status" />
+            <marker date="1459376361000" expanded="true" signature="6339:6390" placeholder="select * fro... pumpStatus" />
           </folding>
         </state>
       </provider>
