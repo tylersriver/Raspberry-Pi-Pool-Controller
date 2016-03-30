@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hourly Air Temperature Graph</title>
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        // Load the Visualization API and the piechart package.
+        google.charts.load('current', {'packages':['gauge']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var jsonData = $.ajax({
+                url: "getTemperature.php",
+                dataType: "json",
+                async: false
+            }).responseText;
+
+
+            //parse the json array
+            jsonData=JSON.parse(jsonData);
+            jsonData=JSON.parse(jsonData);
+
+            //get the values we need
+            var airTemp = jsonData[0].temp;
+            var waterTemp = jsonData[1].temp;
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Label');
+            data.addColumn('number', 'Value');
+            data.addRows(2);
+            data.setValue(0, 0, 'Air');
+            data.setValue(0, 1, airTemp);
+            data.setValue(1, 0, 'Water');
+            data.setValue(1, 1, waterTemp);
+            var options = {
+                width: 800, height: 240,
+                redFrom: 90, redTo: 100,
+                yellowFrom:75, yellowTo: 90,
+                minorTicks: 5
+            };
+
+            var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+
+    </script>
+</head>
+<body>
+<div id="chart_div" style="width: 90%; height: 500px;"></div>
+
+</body>
+</html>
