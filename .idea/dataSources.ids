@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - temp_database@173.194.86.153" uuid="fc1cf4ef-9583-4c10-a23b-d74adf708370">
+    <database-info product="MySQL" version="5.6.26" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="temp_database"/>
+      <table id="2" parent="1" name="led"/>
+      <table id="3" parent="1" name="temperature"/>
+      <column id="4" parent="2" name="id">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="5" parent="2" name="name">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="6" parent="2" name="choice">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="7" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+      </column>
+      <column id="8" parent="3" name="datetime">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="9" parent="3" name="air">
+        <mandatory>1</mandatory>
+        <data-type>float(5,2)</data-type>
+      </column>
+      <column id="10" parent="3" name="water">
+        <mandatory>1</mandatory>
+        <data-type>float(5,2)</data-type>
+      </column>
+      <key id="11" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="MySQL - equipment@173.194.86.153" uuid="bbd190b6-48d3-4571-af6e-4a7b441975e8">
+    <database-info product="MySQL" version="5.6.26" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="equipment"/>
+      <table id="2" parent="1" name="status"/>
+      <table id="3" parent="1" name="settings"/>
+      <table id="4" parent="1" name="heaterStatus"/>
+      <table id="5" parent="1" name="pumpStatus"/>
+      <column id="6" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6) unsigned</data-type>
+      </column>
+      <column id="7" parent="2" name="datetime">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="8" parent="2" name="pump">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="9" parent="2" name="heater">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="10" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="11" parent="3" name="units">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="12" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="13" parent="4" name="timestamp">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="14" parent="4" name="state">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="15" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="16" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="17" parent="5" name="timestamp">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="18" parent="5" name="state">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="19" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

@@ -1,0 +1,254 @@
+/* Created by:
+
+Preston Kemp
+Tyler Sriver
+Embedded Systems Design SP2016
+
+Last Revision: 4 March 2016
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+body {
+    background-color: darkblue;
+    background: url("/img/bg-9-full.jpg") fixed;
+    font-family: 'Hind', sans-serif;
+    color: #3f4549;
+    padding: 0px;
+    margin:0px;
+    overflow: auto;
+    width:100%;
+}
+
+h1
+{
+    color: white;
+}
+
+#clock
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+    color: #3f4549;
+    float:left;
+}
+
+#linkButton {
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+    color: #3f4549;
+    float: right;
+}
+
+#dashboard
+{
+  margin-top:0px;
+  align-content: center;
+  text-align:center;
+  padding: 0px;
+  overflow: auto;
+  position: relative;
+
+  height: 100%;
+  width:100%;
+}
+
+#widgets
+{
+
+  margin: auto;
+  padding: 10px;
+  align-content:center;
+  display: inline-block;
+}
+
+#tempGauges
+{
+    margin: 25px;
+    margin-top: 15px;
+
+}
+
+#header
+{
+  position: relative;
+}
+
+.tile
+{
+  float:left;
+  width: 450px;
+  height: 300px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin: 10px;
+  align-content:center;
+  text-align:center;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+#buttonControlTile
+{
+    line-height: 100px;
+}
+.doublewidthTile
+{
+      margin: 10px;
+      padding:10px;
+      width: 900px;
+      height: 300px;
+      background-color: #f3f3f3;
+      float:left;
+      clear:both;
+      align-content:center;
+      border-radius: 10px;
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+.nav
+{
+    margin: 10px;
+    padding:10px;
+    width: 425px;
+    height: 25px;
+    background-color: #f3f3f3;
+    clear:both;
+    align-content:center;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+h4
+{
+  margin:0px;
+  padding-top:-20px;
+  color: #3f4549;
+  font-size:25px;
+  font-family: 'Hind', sans-serif;
+
+}
+
+.buttonContainer:nth-child(1)
+{
+    float:left;
+    margin-left:35px;
+    padding:20px;
+
+}
+
+.buttonContainer:nth-child(2)
+{
+    float:right;
+    margin-right:35px;
+    padding:20px;
+
+}
+
+tr
+{
+    text-align:center;
+}
+
+footer {
+    font-family: Arial;
+    font-size: 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px
+}
+
+/* Date Time Display */
+.date-time
+{
+    display:inline;
+    text-align:center;
+
+    width:100%;
+}
+ul.date-time
+{
+    display:inline;
+    text-align:center;
+    list-style-type:none;
+}
+.date
+{
+    text-align:center;
+}
+/* ======================= */
+
+/* On/Off Switch for iOS */
+.onoffswitch {
+    position: relative; width: 112px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 67px; padding: 0; line-height: 67px;
+    border: 2px solid #EEEEEE; border-radius: 67px;
+    background-color: #EEEEEE;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 67px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 43px;
+    border: 2px solid #EEEEEE; border-radius: 67px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #34A7C1;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #34A7C1;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+.menu {
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    right: -300px;  /* start off behind the scenes */
+    height: 100%;
+    top:0px;
+    position: fixed;
+    width: 300px;
+    text-decoration: none;
+    align-content:flex-end;
+}
+.icon-close {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right:100px;
+    align-content:flex-end;
+}
+a:hover {
+    color:cyan;
+}
+a {
+    color:black;
+    float: left;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    width: 100px;
+}
+.linkButtons{
+    align-content: center;
+}

@@ -1,0 +1,236 @@
+/* Created by:
+
+Preston Kemp
+Tyler Sriver
+Embedded Systems Design SP2016
+
+Last Revision: 22 February 2016
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+body {
+    background-color: darkblue;
+    background: url("/img/blur-texture-for-badges-01.jpg") fixed;
+    font-family: 'Hind', sans-serif;
+    color: #fff;
+    padding: 20px;
+    overflow: auto;
+    width:100%;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.temp_container
+{
+    width: 430px;
+    height: 220px;
+    background-color: orange;
+    border-radius: 50px;
+    text-align:center;
+}
+
+
+.buttonContainer:nth-child(1)
+{
+    float:left;
+    margin-left:35px;
+
+}
+
+.buttonContainer:nth-child(2)
+{
+    float:right;
+    margin-right:35px;
+
+}
+
+.controls
+{
+    width: 430px;
+    height: 220px;
+    background-color: darkred;
+    border-radius: 50px;
+    text-align:center;
+
+}
+
+tr
+{
+    text-align:center;
+}
+
+h4
+{
+    color:#fff;
+    font-size:25px;
+    margin-bottom:0px;
+    font-family: 'Hind', sans-serif;
+
+
+}
+
+#chart_div
+{
+    width:200px;
+    height:200px;
+    padding:5px;
+    margin-top:-30px;
+
+}
+#chart_div2
+{
+    width:200px;
+    height:200px;
+    padding:5px;
+    margin-top:-30px;
+
+}
+
+h1
+{
+    align-content:center;
+    text-align:center;
+    padding: 10px;
+    margin-bottom:0px;
+    margin-top:5px;
+
+}
+
+footer {
+    font-family: Arial;
+    font-size: 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px
+}
+
+footer a {
+    color: #fff;
+}
+
+
+
+.pagina {
+    position: absolute;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: auto;
+    width: 100%;
+    min-width: 800px;
+    position:absolute;
+}
+
+.jumbotron
+{
+    align-content: center;
+    width:auto;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.linha {
+    width: auto;
+    padding: 5px;
+    height: auto;
+    display: table;
+}
+
+.tile {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 2px;
+    font-family: Corbel, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    text-wrap:normal;
+
+}
+
+
+.date-time
+{
+    display:inline;
+    text-align:center;
+
+    width:100%;
+}
+ul.date-time
+{
+    display:inline;
+    text-align:center;
+    list-style-type:none;
+}
+.date
+{
+    text-align:center;
+}
+
+/* On/Off Switch for iOS */
+
+.onoffswitch {
+    position: relative; width: 112px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 67px; padding: 0; line-height: 67px;
+    border: 2px solid #EEEEEE; border-radius: 67px;
+    background-color: #EEEEEE;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 67px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 43px;
+    border: 2px solid #EEEEEE; border-radius: 67px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #34A7C1;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #34A7C1;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+
+.menu {
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    right: -300px;  /* start off behind the scenes */
+    height: 100%;
+    top:0px;
+    position: fixed;
+    width: 300px;
+    text-decoration: none;
+    align-content:flex-end;
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right:100px;
+    align-content:flex-end;
+}
+
+a:hover
+{
+    color:cyan;
+}
+a
+{
+    color:white;
+}
+
