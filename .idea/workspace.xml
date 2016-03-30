@@ -2,35 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/heaterAuto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/scheduler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/waterAuto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart_ver_2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/file1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/g.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/g1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpioControl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpioControl.php.save" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpioControl2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/install_ubuntu.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/led.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/ledcontrol2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/php_xdebug-2.4.0rc4-5.6-vc11-nts-x86_64.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/styles2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/temperature.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testButton/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/dist/jquery.knob.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/js/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/knob.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/knob/secretplan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/beautifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/css/material-datetimepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/css/material-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/font/Material-Design-Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/font/Material-Design-Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/font/Material-Design-Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/font/Material-Design-Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/font/Material-Design-Icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/index.old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/js/angular-material-datetimepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/js/angular-material-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/js/angular-material-datetimepicker.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/js/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/material/angular-material-datetimepicker/remtopx.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pumpUpdate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/clndr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/custom_1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/fd-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/jplayer.blue.monday.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/popuo-box.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/arrow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/arrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/arrow3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/baa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/banner7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bl-p.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bl1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bl2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bo4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bs1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/bs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ch1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/co.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/dr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/dr1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/dr2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/dr3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/img-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/lo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/lo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/lo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/lo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/lo4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/na-ba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/na.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ne.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ne1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/p.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/pr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/pr1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/pr2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/pr3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/pr4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/prp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/se1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/se2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/se3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/se4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/se5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ta.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ta1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ta2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/ta3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/vi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/wr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/wr1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/wr2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/images/wr3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/circles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/clndr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/easyResponsiveTabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/fd-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/jquery.calendario.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/jquery.jplayer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/jquery.magnific-popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/moment-2.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/move-top.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/responsiveslides.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/js/underscore-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spot/w3layouts-License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/GruntFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/jquery.timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/jquery.timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/jquery.timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/jt.timepicker.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/lib/bootstrap-datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/lib/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/lib/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/lib/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/lib/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/lib/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/time-test/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHPStorm.iws" />
@@ -70,13 +188,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ng.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ng.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings/ng.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EmbeddedPHP/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <marker date="1457660057000" expanded="true" signature="6618:6663" placeholder="select * fro... status" />
               </folding>
             </state>
           </provider>
@@ -293,7 +423,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1456870741206</updated>
-      <workItem from="1459367619849" duration="1978000" />
+      <workItem from="1459367619849" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -330,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459369880910</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial">
+      <created>1459370127355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459370127355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1978000" />
+    <option name="totallyTimeSpent" value="2108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +485,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -358,7 +495,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29256082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -397,13 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graph/hourGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graph/lastHour.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pumpUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heaterUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -790,6 +913,24 @@
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pumpUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedPHP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1457660057000" expanded="true" signature="6618:6663" placeholder="select * fro... status" />
+          </folding>
         </state>
       </provider>
     </entry>
