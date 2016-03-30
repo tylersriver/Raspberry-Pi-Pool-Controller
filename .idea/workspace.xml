@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="Initial">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_old.php" afterPath="" />
+    <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/heaterAuto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/scheduler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/menuTest/waterAuto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/chart_ver_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/file1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/g.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/g1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpioControl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpioControl.php.save" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/gpioControl2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/install_ubuntu.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/led.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/ledcontrol2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/php_xdebug-2.4.0rc4-5.6-vc11-nts-x86_64.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/styles2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/temperature.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testButton/index.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHPStorm.iws" />
@@ -265,7 +293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1456870741206</updated>
-      <workItem from="1459367619849" duration="1755000" />
+      <workItem from="1459367619849" duration="1978000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -295,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459369801675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial">
+      <created>1459369880910</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459369880910</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1755000" />
+    <option name="totallyTimeSpent" value="1978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,11 +354,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24502487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29256082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
