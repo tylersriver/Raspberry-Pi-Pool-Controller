@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHPStorm.iws" />
@@ -412,7 +411,7 @@
       <updated>1456870741206</updated>
       <workItem from="1459367619849" duration="2507000" />
       <workItem from="1459375518627" duration="649000" />
-      <workItem from="1459395077911" duration="795000" />
+      <workItem from="1459395077911" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -505,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459395298070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Reorganization for pumpUpdate and heaterUpdate">
+      <created>1459395953439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1459395953439</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3951000" />
+    <option name="totallyTimeSpent" value="3993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
