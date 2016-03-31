@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Google Cloud Compute VM" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" serverName="Google Cloud Compute VM" uploadOnCheckin="ab104933-54dd-4b6c-b8dc-afe6315130a6">
     <serverData>
       <paths name="Google Cloud Compute VM">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Google Cloud Compute VM" />
   </component>
 </project>
