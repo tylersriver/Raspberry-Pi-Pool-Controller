@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Google Compute Engine">
+  <component name="PublishConfigData" serverName="Google Compute Engine" uploadOnCheckin="e691f1d0-5752-4333-ad69-d36b4aa99fc0">
     <serverData>
       <paths name="Google Compute Engine">
         <serverdata>
           <mappings>
-            <mapping deploy="/html" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Google Compute Engine" />
   </component>
 </project>
