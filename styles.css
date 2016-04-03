@@ -11,10 +11,11 @@ Last Revision: 1 April 2016
 */
 
 @import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100);
 
 body {
-    background-color: darkblue;
-    background: url("/img/bg-9-full.jpg") fixed;
+    background-color: #d0d9df;
+   /* background: url("/img/bg-9-full.jpg") fixed; */
     font-family: 'Hind', sans-serif;
     color: #3f4549;
     padding: 0px;
@@ -26,6 +27,8 @@ body {
 h1
 {
     color: white;
+    font-size:50px;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #clock
@@ -72,10 +75,21 @@ h1
 
 }
 
+#header_padding
+{
+    padding:5px;
+
+}
+
 #header
 {
-  position: relative;
+    position: relative;
+    background-color: #2e6da4;
+    margin:0px;
+    margin-top: -30px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19) !important;
 }
+
 
 .tile
 {
@@ -83,7 +97,7 @@ h1
   width: 450px;
   height: 300px;
   background-color: #f3f3f3;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 10px;
   align-content:center;
   text-align:center;
@@ -104,7 +118,7 @@ h1
       float:left;
       clear:both;
       align-content:center;
-      border-radius: 10px;
+      border-radius: 5px;
       box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 .nav
@@ -116,7 +130,7 @@ h1
     background-color: #f3f3f3;
     clear:both;
     align-content:center;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 

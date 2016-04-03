@@ -62,28 +62,32 @@ Last Revision: 8 March 2016
 
 <div id="dashboard">
     <div id="header">
+        <div id="header_padding"></div>
         <h1>Settings</h1>
+        <div id="widgets">
+            <table>
+                <td>
+                    <div class="nav">
+                        <ul><li><div id="clock"></div></li></ul>
+                    </div>
+                </td>
+                <td> <div class="nav">
+                        <div class="linkButtons">
+                            <ul>
+
+                                <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
+                                <li><a href="/index.php" class="button">Dashboard</a></li>
+                                <li><a href="/settings/index.php" class="button">Settings</a></li>
+                                <li><a href="/stats/index.php" class="button">Stats</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </table>
+        </div>
     </div>
 
     <div id="widgets">
-        <table>
-            <td>
-                <div class="nav">
-                    <ul><li><div id="clock"></div></li></ul>
-                </div>
-            </td>
-            <td> <div class="nav">
-                    <ul>
-                        <div>
-                            <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
-                            <li><a href="/index.php" class="button">Dashboard</a></li>
-                            <li><a href="/settings/index.php" class="button">Settings</a></li>
-                            <li><a href="/stats/index.php" class="button">Stats</a></li>
-                        </div>
-                    </ul>
-                </div>
-            </td>
-        </table>
         <div class="tile">
             <h4>Temperature Units</h4>
             <ul>
@@ -154,6 +158,9 @@ Last Revision: 8 March 2016
                 <option value="80">80</option>
                 <option value="85">85</option>
             </select>
+        </div>
+        <div class="doublewidthTile">
+            <h4>Automatic Water Circulation</h4>
         </div>
         <!--<div class="doublewidthTile">
             <div ng-controller="AppCtrl" ng-cloak="" class="sliderdemoBasicUsage" ng-app="MyApp">
@@ -237,7 +244,6 @@ Last Revision: 8 March 2016
             Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
             -->
 
-        </div>
     </div>
 </div>
 
