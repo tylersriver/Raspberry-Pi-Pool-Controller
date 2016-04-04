@@ -15,16 +15,15 @@ Last Revision: 8 March 2016
     <title>Scheduler</title>
     <link rel="stylesheet" type="text/css" href="../styles.css"/>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="timepicker/jquery.timepicker.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="timepicker/jquery.timepicker.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
     <link rel="stylesheet" href="/resources/demos/style.css">
 
     <style>
-        #feedback { font-size: 1.4em; }
-        #selectable .ui-selecting { background: #FECA40; }
-        #selectable .ui-selected { background: #F39814; color: white; }
-        #selectable { list-style-type: none; margin: 0; padding: 0;  }
-        #selectable li { margin: 3px; padding: 1px; float: left; width: 50px; height: 40px; font-size: 2em; text-align: center; }
+
     </style>
     <script>
         $(function() {
@@ -88,6 +87,14 @@ Last Revision: 8 March 2016
             }
         }
     </script>
+    <script type="text/javascript">
+        $('#stepExample1').timepicker({ 'step': 15 });
+        $('#stepExample2').timepicker({
+            'step': function(i) {
+                return (i%2) ? 15 : 45;
+            }
+        });
+    </script>
 
 </head>
 <body>
@@ -124,7 +131,10 @@ Last Revision: 8 March 2016
 
         </div>
 
-        <div class="doublewidthTile">
+        <div class="doublewidthTileSkinny">
+            <div id="daysOfWeek">
+                <input id="stepExample1" type="text" class="time ui-timepicker-input" autocomplete="off">
+                <input id="stepExample2" type="text" class="time ui-timepicker-input" autocomplete="off">
             <ol id="selectable">
                 <li class="ui-state-default">M</li>
                 <li class="ui-state-default">T</li>
@@ -134,6 +144,8 @@ Last Revision: 8 March 2016
                 <li class="ui-state-default">S</li>
                 <li class="ui-state-default">SU</li>
             </ol>
+                <p>Hold "ctrl" (Command on Mac) to select multiple days.</p>
+                </div>
             </div>
         <div class="doublewidthTile">
 
