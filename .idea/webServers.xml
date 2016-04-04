@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e691f1d0-5752-4333-ad69-d36b4aa99fc0" name="Google Compute Engine" url="http://ubuntu1.prestonkemp.com">
+        <fileTransfer host="ubuntu1.prestonkemp.com" port="22" privateKey="$USER_HOME$/.ssh/google_compute_engine" rootFolder="/var/www/html" accessType="SFTP" username="preston" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

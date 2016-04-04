@@ -1,4 +1,4 @@
-<html ng-app="app">
+<html>
 <!-- Created by:
 Raspberry Pi Pool Controller
 
@@ -9,16 +9,60 @@ Embedded Systems Design SP2016
 Last Revision: 8 March 2016
 -->
 <head>
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    -->
+    <title>Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="timepicker/jquery.timepicker.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.timepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="timepicker/jquery.timepicker.css" />
+    <script type="text/javascript" src="timepicker/lib/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="timepicker/lib/bootstrap-datepicker.css" />
+    <script type="text/javascript" src="timepicker/lib/site.js"></script>
+    <link rel="stylesheet" type="text/css" href="timepicker/lib/site.css" />
 
-    <title>Scheduling</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+ 
 
-    <script src="jquery.min.js"></script>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/ngTimepicker-master/src/css/ngTimepicker.css">
+    <style>
 
+    </style>
+    <script>
+        $(function() {
+            $( "#selectable" ).selectable();
+        });
+    </script>
+    <script type="text/javascript">
+        var regex = /^(.+?)(\d+)$/i;
+        var cloneIndex = $(".clonedInput").length;
 
+        function clone(){
+            $(this).parents(".clonedInput").clone()
+                .appendTo("body")
+                .attr("id", "clonedInput" +  cloneIndex)
+                .find("*")
+                .each(function() {
+                    var id = this.id || "";
+                    var match = id.match(regex) || [];
+                    if (match.length == 3) {
+                        this.id = match[1] + (cloneIndex);
+                    }
+                })
+                .on('click', 'button.clone', clone)
+                .on('click', 'button.remove', remove);
+            cloneIndex++;
+        }
+        function remove(){
+            $(this).parents(".clonedInput").remove();
+        }
+        $("button.clone").on("click", clone);
 
+        $("button.remove").on("click", remove);
+    </script>
     <script>
         var now = new Date(<?php echo time() * 1000 ?>);
         var today = new Date();
@@ -47,70 +91,101 @@ Last Revision: 8 March 2016
             if (clock) {
                 clock.innerHTML = 'System Time: ' + today + ' ' + (now.toTimeString()).split(' ', 1);
             }
-
         }
-
+    </script>
+    <script type="text/javascript">
+        $('#stepExample1').timepicker({ 'step': 15 });
+        $('#stepExample2').timepicker({
+            'step': function(i) {
+                return (i%2) ? 15 : 45;
+            }
+        });
     </script>
 
-
 </head>
-
 <body>
-
 
 <div id="dashboard">
     <div id="header">
-        <h1>Pool Dashboard</h1>
+        <div id="header_padding"></div>
+        <h1>Scheduler</h1>
+        <div id="widgets">
+            <table>
+                <td>
+                    <div class="nav">
+                        <ul><li><div id="clock"></div></li></ul>
+                    </div>
+                </td>
+                <td> <div class="nav">
+                        <div class="linkButtons">
+                            <ul>
+
+                                <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
+                                <li><a href="/index.php" class="button">Dashboard</a></li>
+                                <li><a href="/settings/index.php" class="button">Settings</a></li>
+                                <li><a href="/stats/index.php" class="button">Stats</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </table>
+        </div>
     </div>
 
     <div id="widgets">
-        <table>
-            <td>
-                <div class="nav">
-                    <ul><li><div id="clock"></div></li></ul>
-                </div>
-            </td>
-            <td> <div class="nav">
-                    <ul>
-                        <div>
-                            <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
-                            <li><a href="/index.php" class="button">Dashboard</a></li>
-                            <li><a href="/settings/index.php" class="button">Settings</a></li>
-                            <li><a href="/stats/index.php" class="button">Stats</a></li>
-                        </div>
-                    </ul>
-                </div>
-            </td>
-        </table>
-
-        <body ng-controller="Ctrl as ctrl">
-
-        <div class="doublewidthTile">
-            <ng-timepicker ng-model="ctrl.time"></ng-timepicker>
-            {{ ctrl.time }}
-
-            <ng-timepicker ng-model="ctrl.time2" theme="red" show-meridian="true"></ng-timepicker>
-            {{ ctrl.time2 }}
-
-            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-            <script type="text/javascript" src="/ngTimepicker-master/src/js/ngTimepicker.min.js"></script>
-
-            <script type="text/javascript">
-                var app = angular.module('app', ['jkuri.timepicker']);
-                app.controller('Ctrl', [function() {
-
-                }]);
-            </script>
-
-            </div>
-
-    </div>
-
+        <div class="skinnyTile">
 
         </div>
 
+        <div class="doublewidthTileSkinny">
+            <div id="daysOfWeek">
+                <input id="stepExample1" type="text" class="time ui-timepicker-input" autocomplete="off">
+                <input id="stepExample2" type="text" class="time ui-timepicker-input" autocomplete="off">
+            <ol id="selectable">
+                <li class="ui-state-default">M</li>
+                <li class="ui-state-default">T</li>
+                <li class="ui-state-default">W</li>
+                <li class="ui-state-default">TH</li>
+                <li class="ui-state-default">F</li>
+                <li class="ui-state-default">S</li>
+                <li class="ui-state-default">SU</li>
+            </ol>
+                <p>Hold "ctrl" (Command on Mac) to select multiple days.</p>
+                </div>
+            </div>
+        <div class="doublewidthTile">
+
+            <div id="clonedInput1" class="clonedInput">
+                <div>
+                    <label for="txtCategory" class="">Learning category <span class="requiredField">*</span></label>
+                    <select class="" name="txtCategory[]" id="category1">
+                        <option value="">Please select</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="txtSubCategory" class="">Sub-category <span class="requiredField">*</span></label>
+                    <select class="" name="txtSubCategory[]" id="subcategory1">
+                        <option value="">Please select category</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="txtSubSubCategory">Sub-sub-category <span class="requiredField">*</span></label>
+                    <select name="txtSubSubCategory[]" id="subsubcategory1">
+                        <option value="">Please select sub-category</option>
+                    </select>
+                </div>
+                <div class="actions">
+                    <button class="clone">Clone</button>
+                    <button class="remove">Remove</button>
+                </div>
+                </div>
 
 
 
-        </body>
+
+        </div>
+    </div>
+
+
+</body>
 </html>
