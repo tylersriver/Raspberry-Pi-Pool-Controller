@@ -112,11 +112,10 @@ Last Revision: 4 April 2016
                     </div>
                 </td>
                 <td> <div class="nav">
-                        <div class="linkButtons">
+                        <div class="navButtons">
                             <ul>
-
-                                <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
                                 <li><a href="/index.php" class="button">Dashboard</a></li>
+                                <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
                                 <li><a href="/settings/index.php" class="button">Settings</a></li>
                                 <li><a href="/stats/index.php" class="button">Stats</a></li>
                             </ul>
