@@ -14,13 +14,19 @@ Last Revision: 8 March 2016
     -->
     <title>Scheduler</title>
     <link rel="stylesheet" type="text/css" href="../styles.css"/>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" href="timepicker/jquery.timepicker.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="timepicker/jquery.timepicker.js"></script>
-    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="timepicker/jquery.timepicker.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.timepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="timepicker/jquery.timepicker.css" />
+    <script type="text/javascript" src="timepicker/lib/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="timepicker/lib/bootstrap-datepicker.css" />
+    <script type="text/javascript" src="timepicker/lib/site.js"></script>
+    <link rel="stylesheet" type="text/css" href="timepicker/lib/site.css" />
 
-    <link rel="stylesheet" href="/resources/demos/style.css">
+ 
 
     <style>
 

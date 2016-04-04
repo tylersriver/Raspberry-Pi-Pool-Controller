@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/jquery.timepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/jquery.timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/jquery.timepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/jt.timepicker.jquery.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/GruntFile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/datepair.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/dist/datepair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/dist/datepair.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/dist/jquery.datepair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/dist/jquery.datepair.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/jquery.ptTimeSelect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/jquery.ptTimeSelect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/pikaday.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/pikaday.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/lib/site.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/src/Datepair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/src/jquery.datepair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/timepicker/src/wrapper.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/lib/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/lib/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/lib/bootstrap-datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/lib/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/lib/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepicker/lib/site.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/index.php" afterPath="$PROJECT_DIR$/scheduler/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="PHPStorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +41,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scheduler/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+            <state relative-caret-position="390">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -81,12 +63,22 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="127" column="60" selection-start-line="127" selection-start-column="60" selection-end-line="127" selection-end-column="60" />
+            <state relative-caret-position="285">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <marker date="1459637421000" expanded="true" signature="6370:6419" placeholder="select * fro... pumpStatus" />
                 <marker date="1459637421000" expanded="true" signature="6580:6631" placeholder="select * fro... heaterStatus" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/jonthornton-jquery-timepicker-6ede71e/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="16" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -286,6 +278,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="timepicker" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PoolController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPStorm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scheduler" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -393,7 +403,7 @@
       <workItem from="1459634339844" duration="136000" />
       <workItem from="1459634492709" duration="4244000" />
       <workItem from="1459743553592" duration="1595000" />
-      <workItem from="1459778398726" duration="1799000" />
+      <workItem from="1459778398726" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -549,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459746080177</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated scheduler. Added jquery timepicker files.">
+      <created>1459780417048</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1459780417048</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12011000" />
+    <option name="totallyTimeSpent" value="12276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,20 +584,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14520743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14520743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29256082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19851117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19900498" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="108" width="1240" height="684" />
@@ -612,7 +629,8 @@
     <MESSAGE value="Reorganization for pumpUpdate and heaterUpdate" />
     <MESSAGE value="UI Changes for Scheduler and Homepage.&#10;&#10;Still need to finish the Stats page." />
     <MESSAGE value="UI Changes for Scheduler and Homepage.&#10;&#10;Still need to finish the Stats page.&#10;&#10;Fix scheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Changes for Scheduler and Homepage.&#10;&#10;Still need to finish the Stats page.&#10;&#10;Fix scheduler" />
+    <MESSAGE value="Updated scheduler. Added jquery timepicker files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated scheduler. Added jquery timepicker files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -621,20 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scheduler/lib/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="305" column="15" selection-start-line="305" selection-start-column="15" selection-end-line="305" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/lib/jquery.ptTimeSelect.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -822,10 +826,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/timepicker/lib/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="127" column="60" selection-start-line="127" selection-start-column="60" selection-end-line="127" selection-end-column="60" />
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <marker date="1459637421000" expanded="true" signature="6370:6419" placeholder="select * fro... pumpStatus" />
             <marker date="1459637421000" expanded="true" signature="6580:6631" placeholder="select * fro... heaterStatus" />
@@ -833,10 +845,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/jonthornton-jquery-timepicker-6ede71e/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+        <state relative-caret-position="390">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
