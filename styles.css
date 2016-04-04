@@ -194,14 +194,22 @@ ul {
 }
 #timeSelection
 {
-    margin-left: 0px;
-    display: inline-block;
-    width:200px;
+    margin-left: -600px;
+    width:300px;
     margin-top: 35px;
-    float:left;
+    align-content: center;
+    display: inline;
 
 
 }
+.timeContainer
+{
+    margin-top: inherit;
+    height: 40px;
+    width: 200px;
+    float:left;
+}
+
 
 #selectable
 {

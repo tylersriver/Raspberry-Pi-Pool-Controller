@@ -137,8 +137,14 @@ Last Revision: 8 March 2016
 
         <div class="doublewidthTileSkinny">
             <div id="timeSelection">
+                <div class = "timeContainer">
+                Start Time:
                     <input id="stepExample1" type="text" class="time ui-timepicker-input" autocomplete="off">
+                </div>
+                <div class="timeContainer">
+                Stop Time:
                 <input id="stepExample2" type="text" class="time ui-timepicker-input" autocomplete="off">
+                </div>
             </div>
             <div id="daysOfWeek">
 
