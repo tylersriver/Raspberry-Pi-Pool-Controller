@@ -14,23 +14,28 @@ Last Revision: 8 March 2016
     -->
     <title>Scheduler</title>
     <link rel="stylesheet" type="text/css" href="../styles.css"/>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="timepicker/jquery.timepicker.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
     <script type="text/javascript" src="jquery.timepicker.js"></script>
-    <link rel="stylesheet" type="text/css" href="timepicker/jquery.timepicker.css" />
-    <script type="text/javascript" src="timepicker/lib/bootstrap-datepicker.js"></script>
-    <link rel="stylesheet" type="text/css" href="timepicker/lib/bootstrap-datepicker.css" />
-    <script type="text/javascript" src="timepicker/lib/site.js"></script>
-    <link rel="stylesheet" type="text/css" href="timepicker/lib/site.css" />
+    <link rel="stylesheet" type="text/css" href="../timepicker/jquery.timepicker.css" />
 
- 
+    <link rel="stylesheet" type="text/css" href="../timepicker/lib/site.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="../timepicker/jquery.timepicker.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-    <style>
 
-    </style>
+    <script>
+        $(function() {
+            $('#stepExample1').timepicker({'step': 15});
+            $('#stepExample2').timepicker({
+                'step': function (i) {
+                    return (i % 2) ? 15 : 45;
+                }
+            });
+
+        });
+    </script>
+
     <script>
         $(function() {
             $( "#selectable" ).selectable();
@@ -93,14 +98,7 @@ Last Revision: 8 March 2016
             }
         }
     </script>
-    <script type="text/javascript">
-        $('#stepExample1').timepicker({ 'step': 15 });
-        $('#stepExample2').timepicker({
-            'step': function(i) {
-                return (i%2) ? 15 : 45;
-            }
-        });
-    </script>
+
 
 </head>
 <body>
@@ -138,9 +136,12 @@ Last Revision: 8 March 2016
         </div>
 
         <div class="doublewidthTileSkinny">
-            <div id="daysOfWeek">
-                <input id="stepExample1" type="text" class="time ui-timepicker-input" autocomplete="off">
+            <div id="timeSelection">
+                    <input id="stepExample1" type="text" class="time ui-timepicker-input" autocomplete="off">
                 <input id="stepExample2" type="text" class="time ui-timepicker-input" autocomplete="off">
+            </div>
+            <div id="daysOfWeek">
+
             <ol id="selectable">
                 <li class="ui-state-default">M</li>
                 <li class="ui-state-default">T</li>

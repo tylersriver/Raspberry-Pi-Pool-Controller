@@ -194,14 +194,21 @@ ul {
 }
 #timeSelection
 {
-    margin-left: 0px
+    margin-left: 0px;
+    display: inline-block;
+    width:200px;
+    margin-top: 35px;
+    float:left;
+
+
 }
+
 #selectable
 {
     list-style-type: none;
     margin: 0;
     margin-left: 480px;
-    margin-top: 25px;
+    margin-top: 15px;
 
 
 
