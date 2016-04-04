@@ -27,11 +27,8 @@ Last Revision: 8 March 2016
     <script>
         $(function() {
             $('#stepExample1').timepicker({'step': 15});
-            $('#stepExample2').timepicker({
-                'step': function (i) {
-                    return (i % 2) ? 15 : 45;
-                }
-            });
+            $('#stepExample2').timepicker({'step': 15});
+
 
         });
     </script>
