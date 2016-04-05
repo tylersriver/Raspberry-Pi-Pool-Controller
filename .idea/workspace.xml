@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHPStorm.iws" />
@@ -418,7 +419,7 @@
       <workItem from="1459462997396" duration="608000" />
       <workItem from="1459634081087" duration="441000" />
       <workItem from="1459783082313" duration="2287000" />
-      <workItem from="1459884092907" duration="567000" />
+      <workItem from="1459884092907" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -630,11 +631,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459884814505</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Reorganization for pumpUpdate and heaterUpdate">
+      <created>1459884859831</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1459884859831</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8361000" />
+    <option name="totallyTimeSpent" value="8370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,7 +656,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="32" width="1397" height="856" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14173229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
