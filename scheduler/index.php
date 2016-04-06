@@ -26,10 +26,59 @@ Last Revision: 4 April 2016
 
     <script>
         $(function() {
-            $('#stepExample1').timepicker({'step': 15});
-            $('#stepExample2').timepicker({'step': 15});
+            $('#startTime').timepicker({'step': 15, 'timeFormat': 'H:i'});
+            $('#stopTime').timepicker({'step': 15, 'timeFormat': 'H:i'});
+
+            $('#startTime').on('changeTime', function() {
+                    console.log($(this).val());
+             //   console.log($(this).css("background-color"));
+                if($(this).val() > $('#stopTime').val() && $('#stopTime').val() != "")
+                {
+                    alert("You must select a stop time greater than the start time.")
+                    $(this).val($("#stopTime").val());
+                    $(this).css("background-color", "red");
+                }
+                else {
+                    $(this).css("background-color", "white");
+                    $('#stopTime').css("background-color", "white");
+                }
+                });
+            $('#stopTime').on('changeTime', function() {
+                console.log($(this).val());
+                console.log( $('#startTime').val())
+                if($(this).val() < $('#startTime').val() && $('#startTime').val() != "")
+                {
+                    alert("You must select a stop time greater than the start time.")
+                    $(this).val($("#startTime").val());
+                    $(this).css("background-color", "red");
+                }
+                else {
+                    $(this).css("background-color", "white");
+                    $('#startTime').css("background-color", "white");
+                }
+            });
 
 
+
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $("#selectable").selectable({
+                selected: function (event , ui) {
+                            console.log(ui.selected.id + " selected!");
+                }
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $( "input[type=submit], a, button" )
+                .button()
+                .click(function( event ) {
+                 //   event.preventDefault();
+                    console.log("button pushed!");
+                });
         });
     </script>
 
@@ -135,25 +184,28 @@ Last Revision: 4 April 2016
             <div id="timeSelection">
                 <div class = "timeContainer">
                 Start Time:
-                    <input id="stepExample1" type="text" class="time ui-timepicker-input" autocomplete="off">
+                    <input id="startTime" type="text" class="time ui-timepicker-input" autocomplete="off">
                 </div>
                 <div class="timeContainer">
                 Stop Time:
-                <input id="stepExample2" type="text" class="time ui-timepicker-input" autocomplete="off">
+                <input id="stopTime" type="text" class="time ui-timepicker-input" autocomplete="off">
                 </div>
             </div>
             <div id="daysOfWeek">
 
             <ol id="selectable">
-                <li class="ui-state-default">M</li>
-                <li class="ui-state-default">T</li>
-                <li class="ui-state-default">W</li>
-                <li class="ui-state-default">TH</li>
-                <li class="ui-state-default">F</li>
-                <li class="ui-state-default">S</li>
-                <li class="ui-state-default">SU</li>
+                <li id="Monday" class="ui-state-default">M</li>
+                <li id="Tuesday" class="ui-state-default">T</li>
+                <li id="Wednesday" class="ui-state-default">W</li>
+                <li id="Thursday" class="ui-state-default">TH</li>
+                <li id="Friday" class="ui-state-default">F</li>
+                <li id="Saturday" class="ui-state-default">S</li>
+                <li id="Sunday" class="ui-state-default">SU</li>
             </ol>
+
+
                 <p>Hold "ctrl" (Command on Mac) to select multiple days.</p>
+                <p><input type="submit" value="Save"></p>
                 </div>
             </div>
         <div class="doublewidthTile">
