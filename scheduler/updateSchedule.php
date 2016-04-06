@@ -1,9 +1,16 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: tyler.w.sriver
- * Date: 3/9/16
- * Time: 1:59 PM
+
+Raspberry Pi Pool Controller
+
+updateSchedule.php
+
+Preston Kemp
+Tyler Sriver
+Embedded Systems Design SP2016
+
+Last Revision: 6 April 2016
+
  */
 
 $db_host = "173.194.86.153";

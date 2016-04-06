@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scheduler/updateSchedule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/index.php" afterPath="$PROJECT_DIR$/scheduler/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/updateSchedule.php" afterPath="$PROJECT_DIR$/scheduler/updateSchedule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="PHPStorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,20 +56,20 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateSchedule.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="updateSchedule.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/updateSchedule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="120">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
-                <marker date="1458014869000" expanded="true" signature="742:787" placeholder="UPDATE setti... " />
+                <marker date="1459960589000" expanded="true" signature="799:844" placeholder="UPDATE setti... " />
               </folding>
             </state>
           </provider>
@@ -91,8 +90,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="77" column="28" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="28" />
+            <state relative-caret-position="1800">
+              <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
               <folding>
                 <marker date="1459799358000" expanded="true" signature="6368:6417" placeholder="select * fro... pumpStatus" />
                 <marker date="1459799358000" expanded="true" signature="6578:6629" placeholder="select * fro... heaterStatus" />
@@ -119,18 +118,18 @@
       <file leaf-file-name="tempGauges.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/tempGauges.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
+            <state relative-caret-position="0">
               <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="909">
-              <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -149,7 +148,7 @@
       <file leaf-file-name="jquery.timepicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timepicker/jquery.timepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8205">
+            <state relative-caret-position="0">
               <caret line="551" column="27" selection-start-line="551" selection-start-column="21" selection-end-line="551" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -221,8 +220,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/settings/index.php" />
         <option value="$USER_HOME$/Downloads/jonthornton-jquery-timepicker-6ede71e/index.html" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/scheduler/index.php" />
+        <option value="$PROJECT_DIR$/scheduler/updateSchedule.php" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -353,7 +353,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/scheduler" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -445,7 +445,7 @@
       <workItem from="1459743553592" duration="1595000" />
       <workItem from="1459778398726" duration="5944000" />
       <workItem from="1459799893501" duration="4043000" />
-      <workItem from="1459916073062" duration="6398000" />
+      <workItem from="1459916073062" duration="6906000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -650,11 +650,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459919768301</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Created JSON object for scheduler data passing.">
+      <created>1459960125565</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1459960125565</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26597000" />
+    <option name="totallyTimeSpent" value="27105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,7 +722,8 @@
     <MESSAGE value="UI Changes for Scheduler and Homepage.&#10;&#10;Still need to finish the Stats page.&#10;&#10;Fix scheduler" />
     <MESSAGE value="Updated scheduler. Added jquery timepicker files." />
     <MESSAGE value="Updated scheduler UI. Able to get inputs out to the console. Need to create PHP files to handle the backend part." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated scheduler UI. Able to get inputs out to the console. Need to create PHP files to handle the backend part." />
+    <MESSAGE value="Created JSON object for scheduler data passing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created JSON object for scheduler data passing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -844,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/ng.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/jonthornton-jquery-timepicker-6ede71e/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -863,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timepicker/jquery.timepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8205">
+        <state relative-caret-position="0">
           <caret line="551" column="27" selection-start-line="551" selection-start-column="21" selection-end-line="551" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -881,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/tempGauges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
+        <state relative-caret-position="0">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
@@ -948,33 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="28" />
-          <folding>
-            <marker date="1459799358000" expanded="true" signature="6368:6417" placeholder="select * fro... pumpStatus" />
-            <marker date="1459799358000" expanded="true" signature="6578:6629" placeholder="select * fro... heaterStatus" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/updateState.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -985,13 +956,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="45" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
+          <folding>
+            <marker date="1459799358000" expanded="true" signature="6368:6417" placeholder="select * fro... pumpStatus" />
+            <marker date="1459799358000" expanded="true" signature="6578:6629" placeholder="select * fro... heaterStatus" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ng.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/updateSchedule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="120">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <marker date="1458014869000" expanded="true" signature="742:787" placeholder="UPDATE setti... " />
+            <marker date="1459960589000" expanded="true" signature="799:844" placeholder="UPDATE setti... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
