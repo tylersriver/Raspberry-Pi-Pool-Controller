@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Google Compute Engine" uploadOnCheckin="8f62e61b-3fb7-47d2-9cec-ff255d9f2c04">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Google Compute Engine" uploadOnCheckin="e691f1d0-5752-4333-ad69-d36b4aa99fc0">
     <serverData>
-      <paths name="Google Cloud Compute">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="Google Compute Engine">
         <serverdata>
           <mappings>
@@ -17,7 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="Google Cloud Compute" />
+    <option name="myUploadOnCheckinName" value="Google Compute Engine" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

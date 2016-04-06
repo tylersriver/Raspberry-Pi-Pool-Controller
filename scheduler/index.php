@@ -70,15 +70,25 @@ Last Revision: 6 April 2016
                 }
             });
         });
+
     </script>
     <script>
-        $(function() {
-            $( "input[type=submit], a, button" )
-                .button()
-                .click(function( event ) {
-                 //   event.preventDefault();
-                    console.log("button pushed!");
+        $(function () {
+            $('button').click(function () {
+                var ids = $('#selectable .ui-selected').map(function () {
+                    return $(this).data('userid');
                 });
+                var data = {
+                    [
+                    days: ids.toArray(),
+                    startTime:$('#startTime').val(),
+                    stopTime:$('#stopTime').val()
+                    ]
+                };
+                console.log(data);
+                console.log(JSON.stringify(data));
+                console.log('userid: ' + ids.toArray().join(',') +'\n The time selected is: ' + $('#startTime').val() + ' to ' + $('#stopTime').val());
+            });
         });
     </script>
 
@@ -192,20 +202,19 @@ Last Revision: 6 April 2016
                 </div>
             </div>
             <div id="daysOfWeek">
-
             <ol id="selectable">
-                <li id="Monday" class="ui-state-default">M</li>
-                <li id="Tuesday" class="ui-state-default">T</li>
-                <li id="Wednesday" class="ui-state-default">W</li>
-                <li id="Thursday" class="ui-state-default">TH</li>
-                <li id="Friday" class="ui-state-default">F</li>
-                <li id="Saturday" class="ui-state-default">S</li>
-                <li id="Sunday" class="ui-state-default">SU</li>
+                <li id="Monday" class="ui-state-default" data-userid="Monday">M</li>
+                <li id="Tuesday" class="ui-state-default" data-userid="Tuesday">T</li>
+                <li id="Wednesday" class="ui-state-default" data-userid="Wednesday">W</li>
+                <li id="Thursday" class="ui-state-default" data-userid="Thursday">TH</li>
+                <li id="Friday" class="ui-state-default" data-userid="Friday">F</li>
+                <li id="Saturday" class="ui-state-default" data-userid="Saturday">S</li>
+                <li id="Sunday" class="ui-state-default" data-userid="Sunday">SU</li>
             </ol>
 
 
                 <p>Hold "ctrl" (Command on Mac) to select multiple days.</p>
-                <p><input type="submit" value="Save"></p>
+                <p><button>Save</button></p>
                 </div>
             </div>
         <div class="doublewidthTile">

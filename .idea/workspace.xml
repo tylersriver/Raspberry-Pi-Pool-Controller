@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="Updated scheduler. Added jquery timepicker files.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scheduler/updateSchedule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/index.php" afterPath="$PROJECT_DIR$/scheduler/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="PHPStorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,12 +54,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+            <state relative-caret-position="511">
+              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateSchedule.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scheduler/updateSchedule.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <marker date="1458014869000" expanded="true" signature="742:787" placeholder="UPDATE setti... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,7 +176,7 @@
         <option value="Preston Kemp &lt;preston.kemp@eagles.oc.edu&gt;" />
       </list>
     </option>
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -295,6 +306,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PoolController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPStorm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scheduler" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -330,7 +355,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scheduler" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="Console.TableResult.DefaultCopyAction" value="SQL Insert Statements" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="151" />
@@ -352,19 +377,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/timepicker" />
-      <recent name="$PROJECT_DIR$/stats" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/scheduler" />
-      <recent name="$PROJECT_DIR$/material/angular-material-datetimepicker" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/supporting/php/equipment_update" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scheduler" />
       <recent name="$PROJECT_DIR$/graph" />
       <recent name="$PROJECT_DIR$/old_test_files" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scheduler" />
+      <recent name="$PROJECT_DIR$/timepicker" />
+      <recent name="$PROJECT_DIR$/stats" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/material/angular-material-datetimepicker" />
     </key>
   </component>
   <component name="RunManager">
@@ -420,7 +445,7 @@
       <workItem from="1459743553592" duration="1595000" />
       <workItem from="1459778398726" duration="5944000" />
       <workItem from="1459799893501" duration="4043000" />
-      <workItem from="1459916073062" duration="3254000" />
+      <workItem from="1459916073062" duration="6398000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -611,11 +636,25 @@
       <option name="project" value="LOCAL" />
       <updated>1459799918710</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Updated scheduler UI. Able to get inputs out to the console. Need to create PHP files to handle the backend part.">
+      <created>1459919733301</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1459919733301</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated scheduler UI. Able to get inputs out to the console. Need to create PHP files to handle the backend part.">
+      <created>1459919768301</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1459919768301</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23453000" />
+    <option name="totallyTimeSpent" value="26597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,15 +673,15 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14949928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29256082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19851117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19851117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="108" width="1240" height="684" />
@@ -675,7 +714,8 @@
     <MESSAGE value="UI Changes for Scheduler and Homepage.&#10;&#10;Still need to finish the Stats page." />
     <MESSAGE value="UI Changes for Scheduler and Homepage.&#10;&#10;Still need to finish the Stats page.&#10;&#10;Fix scheduler" />
     <MESSAGE value="Updated scheduler. Added jquery timepicker files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated scheduler. Added jquery timepicker files." />
+    <MESSAGE value="Updated scheduler UI. Able to get inputs out to the console. Need to create PHP files to handle the backend part." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated scheduler UI. Able to get inputs out to the console. Need to create PHP files to handle the backend part." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,13 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graph/hourTempGraph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supporting/php/updateStatus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -702,13 +735,6 @@
     <entry file="file://$PROJECT_DIR$/material/angular-material-datetimepicker/js/angular-material-datetimepicker.js" />
     <entry file="file://$PROJECT_DIR$/material/angular-material-datetimepicker/index.html" />
     <entry file="file://$PROJECT_DIR$/web-starter-kit-0.6.1/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/settings/updateState.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/material/angular-material-datetimepicker/remtopx.php" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbd190b6-48d3-4571-af6e-4a7b441975e8/console.sql" />
     <entry file="file://$PROJECT_DIR$/material/angular-material-datetimepicker/js/demo.js" />
@@ -943,9 +969,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        <state relative-caret-position="511">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/updateState.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1458014869000" expanded="true" signature="742:787" placeholder="UPDATE setti... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/updateSchedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <marker date="1458014869000" expanded="true" signature="742:787" placeholder="UPDATE setti... " />
+          </folding>
         </state>
       </provider>
     </entry>
