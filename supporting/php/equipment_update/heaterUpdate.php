@@ -20,7 +20,7 @@ $mysqli = new mysqli($servername, $username, $password, $dbname);
 if(isset($_POST['value']))
 {
     $value=$_POST['value'];
-    $pump = 0;
+    $pump = 1;
 
 
     if($value == "0")
@@ -36,11 +36,12 @@ if(isset($_POST['value']))
     }
     if($pump === 1)
     {
-        $query="INSERT INTO pumpStatus (timestamp, state) VALUES (now(), $pump)";
+        $query="INSERT INTO status (datetime, pump, heater) VALUES (now(), $pump, $value)";
+    //    $query="INSERT INTO status (datetime, pump, heater) VALUES (now(), $value, $state)";
         $qresult = $mysqli->query($query);
     }
-    $query="INSERT INTO heaterStatus (timestamp, state) VALUES (now(), $value)";
-    $qresult = $mysqli->query($query);
+ //   $query="INSERT INTO heaterStatus (timestamp, state) VALUES (now(), $value)";
+ //   $qresult = $mysqli->query($query);
     mysqli_close($mysqli);
 }
 ?>

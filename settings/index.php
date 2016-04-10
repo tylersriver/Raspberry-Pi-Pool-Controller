@@ -160,6 +160,7 @@ Last Revision: 5 April 2016
         </div>
         <div class="doublewidthTile">
             <h4>Automatic Water Circulation</h4>
+            <h6>This secton can be used to automatically circulate water for a specified amount of time every hour.</h6>
         </div>
         <!--<div class="doublewidthTile">
             <div ng-controller="AppCtrl" ng-cloak="" class="sliderdemoBasicUsage" ng-app="MyApp">

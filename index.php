@@ -54,6 +54,36 @@ Last Revision: 30 March 2016
 
     <script type="text/javascript">
         $(document).ready(function () {
+                var buttonData = $.ajax({
+                    url: "supporting/php/getStatus.php",
+                    dataType: "json",
+                    async: false
+                }).responseText;
+
+
+                //parse the json array
+                buttonData = JSON.parse(buttonData);
+                buttonData = JSON.parse(buttonData);
+
+                //get the values we need
+                var pump = buttonData[0].status;
+                var heater = buttonData[1].status;
+
+                var pumpState = "";
+                var heaterState = "";
+
+                if (pump == 1) {
+                    pumpState = "checked";
+                    document.getElementById("myonoffswitch2").checked = true;
+                }
+                if (heater == 1) {
+                    heaterState = "checked";
+                    document.getElementById("myonoffswitch").checked = true;
+                }
+
+
+                console.log(pump);
+                console.log(heater);
 
             $('#myonoffswitch').click(function () {
                 var myonoffswitch = $('#myonoffswitch').val();
@@ -177,23 +207,8 @@ Last Revision: 30 March 2016
                 <div class="buttonContainer">
                     <h4>Heater</h4>
                     <div class="onoffswitch">
-                        <?php
-                        $db_host = "173.194.86.153";
-                        $db_user = "pi";
-                        $db_password = "rn4R9EfAarJpY5VwY8rnBlL2";
-                        $db_database = "equipment";
-                        $con = new mysqli($db_host, $db_user, $db_password, $db_database);
-                        $pumpSql = "select * from pumpStatus order by id desc limit 1";
-                        $exec = mysqli_query($con,$pumpSql);
-                        $pump = mysqli_fetch_array($exec);
-                        $heaterSql = "select * from heaterStatus order by id desc limit 1";
-                        $heaterExec = mysqli_query($con,$heaterSql);
-                        $heater = mysqli_fetch_array($heaterExec);
 
-                        ?>
-                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" <?php if ($heater['state'] == "1") {
-                            echo "checked";
-                        }?>/>
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" />
 
 
                         <label class="onoffswitch-label" for="myonoffswitch" >
@@ -205,9 +220,7 @@ Last Revision: 30 March 2016
                 <div class="buttonContainer">
                     <h4>Pump</h4>
                     <div class="onoffswitch">
-                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch2" <?php if ($pump['state'] == "1") {
-                            echo "checked";
-                        }?>/>
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch2" />
 
                         <label class="onoffswitch-label" for="myonoffswitch2">
                             <div class="onoffswitch-inner"></div>

@@ -79,15 +79,33 @@ Last Revision: 6 April 2016
                     return $(this).data('userid');
                 });
                 var data = {
-                    [
                     days: ids.toArray(),
-                    startTime:$('#startTime').val(),
-                    stopTime:$('#stopTime').val()
-                    ]
+                    startTime: $('#startTime').val(),
+                    stopTime: $('#stopTime').val()
                 };
                 console.log(data);
                 console.log(JSON.stringify(data));
-                console.log('userid: ' + ids.toArray().join(',') +'\n The time selected is: ' + $('#startTime').val() + ' to ' + $('#stopTime').val());
+
+                console.log('userid: ' + ids.toArray().join(',') + '\n The time selected is: ' + $('#startTime').val() + ' to ' + $('#stopTime').val());
+              //  data = $(this).serialize() + "&" + $.param(JSON.stringify(data));
+                jsonData = JSON.stringify(data);
+                console.log(data);
+
+                $.ajax({
+                    type: "POST",
+                    url: "updateSchedule.php", //Relative or absolute path to response.php file
+                    data: {
+                        days: ids.toArray(),
+                        startTime: $('#startTime').val(),
+                        stopTime: $('#stopTime').val()
+                    },
+                    success:function(result)//we got the response
+                    {
+                        console.log(result);
+                   //     alert('Successfully called');
+                    },
+                    error:function(exception){alert('Exeption:'+exception);}
+                });
             });
         });
     </script>

@@ -28,6 +28,5 @@ mysqli_close($con);
 echo json_encode($jsonTable);
 
 
-
 ?>
 
