@@ -23,6 +23,66 @@ Last Revision: 6 April 2016
     <script type="text/javascript" src="../timepicker/jquery.timepicker.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var scheduleData = $.ajax({
+                url: "getSchedule.php",
+                dataType: "json",
+                async: false
+            }).responseText;
+
+
+            //parse the json array
+
+            scheduleData = JSON.parse(scheduleData);
+            if(scheduleData.length != 0) {
+                console.log(scheduleData);
+                console.log(scheduleData[0]);
+                for (var i = 0, len = scheduleData.length; i < len; i++) {
+                    var day;
+                    var dayNum = scheduleData[i].day;
+                    switch (dayNum) {
+                        case "0":
+                            day = "Monday";
+                            break;
+                        case "1":
+                            day = "Tuesday";
+                            break;
+                        case "2":
+                            day = "Wednesday";
+                            break;
+                        case "3":
+                            day = "Thursday";
+                            break;
+                        case "4":
+                            day = "Friday";
+                            break;
+                        case "5":
+                            day = "Saturday";
+                            break;
+                        case "6":
+                            day = "Sunday";
+                            break;
+                    }
+                    console.log(day);
+                    document.getElementById(day).classList.add("ui-selected");
+                }
+
+
+                //get the values we need
+                var start = scheduleData[0].start;
+                var stop = scheduleData[0].stop;
+                // var day = scheduleData.
+                $('#startTime').val(start);
+                $('#stopTime').val(stop);
+
+
+
+            }
+
+        });
+            </script>
+
 
     <script>
         $(function() {

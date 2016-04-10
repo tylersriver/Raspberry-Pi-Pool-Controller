@@ -19,6 +19,8 @@ Last Revision: 6 April 2016
           $db_password = "rn4R9EfAarJpY5VwY8rnBlL2";
           $db_database = "equipment";
           $con = new mysqli($db_host, $db_user, $db_password, $db_database);
+          $sql = "TRUNCATE TABLE schedule";
+          $exec = mysqli_query($con,$sql);
 
 
           $startTime = $_POST["startTime"] . ":00";

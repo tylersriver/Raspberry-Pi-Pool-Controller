@@ -108,7 +108,7 @@
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="21" parent="6" name="index">
+      <column id="21" parent="6" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
@@ -125,8 +125,11 @@
       <column id="25" parent="6" name="interrupt">
         <data-type>tinyint(1)</data-type>
       </column>
-      <key id="26" parent="6" name="PRIMARY">
-        <columns>index</columns>
+      <column id="26" parent="6" name="tempSetting">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="27" parent="6" name="PRIMARY">
+        <columns>id</columns>
         <primary>1</primary>
       </key>
     </database-model>
