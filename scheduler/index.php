@@ -264,9 +264,7 @@ Last Revision: 6 April 2016
     </div>
 
     <div id="widgets">
-        <div class="skinnyTile">
 
-        </div>
 
         <div class="doublewidthTileSkinny">
             <div id="timeSelection">
@@ -295,37 +293,7 @@ Last Revision: 6 April 2016
                 <p><button>Save</button></p>
                 </div>
             </div>
-        <div class="doublewidthTile">
 
-            <div id="clonedInput1" class="clonedInput">
-                <div>
-                    <label for="txtCategory" class="">Learning category <span class="requiredField">*</span></label>
-                    <select class="" name="txtCategory[]" id="category1">
-                        <option value="">Please select</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="txtSubCategory" class="">Sub-category <span class="requiredField">*</span></label>
-                    <select class="" name="txtSubCategory[]" id="subcategory1">
-                        <option value="">Please select category</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="txtSubSubCategory">Sub-sub-category <span class="requiredField">*</span></label>
-                    <select name="txtSubSubCategory[]" id="subsubcategory1">
-                        <option value="">Please select sub-category</option>
-                    </select>
-                </div>
-                <div class="actions">
-                    <button class="clone">Clone</button>
-                    <button class="remove">Remove</button>
-                </div>
-                </div>
-
-
-
-
-        </div>
     </div>
 
 
