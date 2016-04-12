@@ -64,10 +64,12 @@ Last Revision: 30 March 2016
                 //parse the json array
                 buttonData = JSON.parse(buttonData);
                 buttonData = JSON.parse(buttonData);
+            console.log(buttonData);
 
                 //get the values we need
                 var pump = buttonData[0].status;
                 var heater = buttonData[1].status;
+                var interrupt = buttonData[2].manual;
 
                 var pumpState = "";
                 var heaterState = "";
@@ -80,6 +82,12 @@ Last Revision: 30 March 2016
                     heaterState = "checked";
                     document.getElementById("myonoffswitch").checked = true;
                 }
+               if (interrupt == 1) {
+                     heaterState = "checked";
+                     document.getElementById("myonoffswitch3").checked = true;
+              }
+
+
 
 
                 console.log(pump);
@@ -103,6 +111,7 @@ Last Revision: 30 March 2016
                     $('.buttonContainer:nth-child(2)').fadeTo(500,.2);
 
                 }
+
                 $.ajax({
                     type: "POST",
                     url: "supporting/php/equipment_update/heaterUpdate.php",
@@ -141,6 +150,47 @@ Last Revision: 30 March 2016
 
             });
         </script>
+    <script>
+        $(document).ready(function () {
+            $('#myonoffswitch3').click(function () {
+                var myonoffswitch = $('#myonoffswitch3').val();
+
+                //set both Pump and Heater to off
+
+
+
+                if ($("#myonoffswitch3:checked").length == 1) {
+                    var b = "1";
+
+                    $('#myonoffswitch2').prop("disabled", false);
+                    $('#myonoffswitch').prop("disabled", false);
+                    $('.buttonContainer:nth-child(1)').fadeTo(500, 1);
+                    $('.buttonContainer:nth-child(2)').fadeTo(500, 1);
+
+
+                }
+                if ($("#myonoffswitch3:checked").length == 0) {
+                    var b = "0";
+                    document.getElementById("myonoffswitch").checked = false;
+                    document.getElementById("myonoffswitch2").checked = false;
+                    $('#myonoffswitch2').prop("disabled", true);
+                    $('.buttonContainer:nth-child(2)').fadeTo(500, .2);
+                    $('#myonoffswitch').prop("disabled", true);
+                    $('.buttonContainer:nth-child(1)').fadeTo(500, .2);
+
+                }
+                $.ajax({
+                    type: "POST",
+                    url: "supporting/php/equipment_update/manualUpdate.php",
+                    data: "value=" + b,
+                    success: function (html) {
+                        $("#display").html(html).show();
+                    }
+                });
+
+            });
+        });
+    </script>
 
 
     <script type="text/javascript">
@@ -162,6 +212,13 @@ Last Revision: 30 March 2016
             $('#myonoffswitch2').prop("disabled", true);
             $('.buttonContainer:nth-child(2)').fadeTo(500,.2);
         }
+            if($("#myonoffswitch3:checked").length == 0) {
+                $('#myonoffswitch2').prop("disabled", true);
+                $('.buttonContainer:nth-child(2)').fadeTo(500, .2);
+                $('#myonoffswitch').prop("disabled", true);
+                $('.buttonContainer:nth-child(1)').fadeTo(500, .2);
+            }
+
         });
     </script>
 </head>
@@ -220,9 +277,20 @@ Last Revision: 30 March 2016
                 <div class="buttonContainer">
                     <h4>Pump</h4>
                     <div class="onoffswitch">
-                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch2" />
+                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch2" />
 
-                        <label class="onoffswitch-label" for="myonoffswitch2">
+                            <label class="onoffswitch-label" for="myonoffswitch2">
+                                <div class="onoffswitch-inner"></div>
+                                <div class="onoffswitch-switch"></div>
+                            </label>
+                    </div>
+                </div>
+                <div class="buttonContainer">
+                    <h4>Manual Control</h4>
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch3" />
+
+                        <label class="onoffswitch-label" for="myonoffswitch3">
                             <div class="onoffswitch-inner"></div>
                             <div class="onoffswitch-switch"></div>
                         </label>

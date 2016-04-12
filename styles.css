@@ -105,7 +105,7 @@ h1
 
 #buttonControlTile
 {
-    line-height: 100px;
+    line-height: 50px;
 }
 .doublewidthTile
 {
@@ -262,6 +262,21 @@ h4
     padding:20px;
 
 }
+.buttonContainer:nth-child(3)
+{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 125px;
+
+    padding:10px;
+
+}
+
+
+.buttonContainer:nth-child(3).onoffswitch
+{
+    margin-left: 50px;
+}
 
 tr
 {
@@ -300,6 +315,7 @@ ul.date-time
 .onoffswitch {
     position: relative; width: 112px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+
 }
 .onoffswitch-checkbox {
     display: none;
