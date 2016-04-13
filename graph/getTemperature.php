@@ -63,7 +63,8 @@ while($r = mysqli_fetch_array($exec)) {
         // and your second column is a "number" type
         // but you can change them if they are not
         array('label' => 'Air', 'temp' =>  $r['air']),
-        array('label' => 'Water', 'temp' => $r['water'])
+        array('label' => 'Water', 'temp' => $r['water']),
+        array('label' => '')
     );
 }
 

@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e9eb9486-f179-48c8-8b35-4555b081c421" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/getTemperature.php" afterPath="$PROJECT_DIR$/graph/getTemperature.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/getSchedule.php" afterPath="$PROJECT_DIR$/scheduler/getSchedule.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/index.php" afterPath="$PROJECT_DIR$/scheduler/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scheduler/updateSchedule.php" afterPath="$PROJECT_DIR$/scheduler/updateSchedule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings/index.php" afterPath="$PROJECT_DIR$/settings/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stats/index.php" afterPath="$PROJECT_DIR$/stats/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supporting/php/equipment_update/heaterUpdate.php" afterPath="$PROJECT_DIR$/supporting/php/equipment_update/heaterUpdate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supporting/php/equipment_update/pumpUpdate.php" afterPath="$PROJECT_DIR$/supporting/php/equipment_update/pumpUpdate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supporting/php/getStatus.php" afterPath="$PROJECT_DIR$/supporting/php/getStatus.php" />
     </list>
     <ignored path="PHPStorm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +55,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="equipment.settings" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/4ef6ad43/bbd190b6-48d3-4571-af6e-4a7b441975e8/equipment.settings">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getStatus.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/supporting/php/getStatus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+              <folding>
+                <marker date="1460562652000" expanded="true" signature="457:502" placeholder="select * fro... status" />
+                <marker date="1460562652000" expanded="true" signature="518:561" placeholder="SELECT `sett... settings" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tempGauges.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/tempGauges.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getTemperature.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/getTemperature.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <marker date="1460562500000" expanded="true" signature="610:649" placeholder="SELECT `sett... settings" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scheduler/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="299" column="0" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+            <state relative-caret-position="-3645">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -192,9 +223,7 @@
         <option value="$PROJECT_DIR$/settings/getState.php" />
         <option value="$PROJECT_DIR$/settings/updateState.php" />
         <option value="$PROJECT_DIR$/timepickerpop-master/demo/timepickerpop-demo.html" />
-        <option value="$PROJECT_DIR$/graph/tempGauges.js" />
         <option value="$PROJECT_DIR$/scheduler/timepickerpop.js" />
-        <option value="$PROJECT_DIR$/graph/getTemperature.php" />
         <option value="$PROJECT_DIR$/pumpUpdate.php" />
         <option value="$PROJECT_DIR$/heaterUpdate.php" />
         <option value="$PROJECT_DIR$/stats/weeklyStats.php" />
@@ -204,16 +233,18 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bbd190b6-48d3-4571-af6e-4a7b441975e8/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bbd190b6-48d3-4571-af6e-4a7b441975e8/console_1.sql" />
         <option value="$PROJECT_DIR$/supporting/php/equipment_update/manualUpdate.php" />
-        <option value="$PROJECT_DIR$/supporting/php/getStatus.php" />
         <option value="$PROJECT_DIR$/supporting/php/equipment_update/heaterUpdate.php" />
         <option value="$PROJECT_DIR$/supporting/php/equipment_update/pumpUpdate.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/stats/index.php" />
         <option value="$PROJECT_DIR$/settings/index.php" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/scheduler/updateSchedule.php" />
         <option value="$PROJECT_DIR$/scheduler/getSchedule.php" />
         <option value="$PROJECT_DIR$/scheduler/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/graph/getTemperature.php" />
+        <option value="$PROJECT_DIR$/graph/tempGauges.js" />
+        <option value="$PROJECT_DIR$/supporting/php/getStatus.php" />
       </list>
     </option>
   </component>
@@ -372,6 +403,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="graph" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PoolController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPStorm" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="EmbeddedPHP" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -493,7 +538,7 @@
       <workItem from="1460383400543" duration="3075000" />
       <workItem from="1460392056981" duration="9435000" />
       <workItem from="1460490339545" duration="2575000" />
-      <workItem from="1460493739608" duration="2100000" />
+      <workItem from="1460493739608" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1459368552737</created>
@@ -747,11 +792,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460437313232</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="UI Changes for temperature selection">
+      <created>1460560417120</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1460560417120</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67547000" />
+    <option name="totallyTimeSpent" value="68570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,15 +822,15 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1695279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.080829754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19602978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19651741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="116" width="1240" height="668" />
@@ -816,7 +868,8 @@
     <MESSAGE value="updated headings" />
     <MESSAGE value="schedule persistence" />
     <MESSAGE value="UI Changes and Functionality additions" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Changes and Functionality additions" />
+    <MESSAGE value="UI Changes for temperature selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Changes for temperature selection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,7 +878,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ngTimepicker-master/src/js/ngTimepicker.js" />
     <entry file="file://$PROJECT_DIR$/ngTimepicker-master/src/js/ngTimepicker.min.js" />
     <entry file="file://$PROJECT_DIR$/ngTimepicker-master/src/css/ngTimepicker.css" />
     <entry file="file://$PROJECT_DIR$/ngTimepicker-master/package.json" />
@@ -977,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/getTemperature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbd190b6-48d3-4571-af6e-4a7b441975e8/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1036,14 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/tempGauges.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supporting/php/equipment_update/heaterUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1079,13 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supporting/php/getStatus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/getState.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1097,6 +1127,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,14 +1140,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1199,9 +1222,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="299" column="0" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+        <state relative-caret-position="-3645">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/tempGauges.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/getTemperature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding>
+            <marker date="1460562500000" expanded="true" signature="610:649" placeholder="SELECT `sett... settings" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/tempGauges.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supporting/php/getStatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+          <folding>
+            <marker date="1460562652000" expanded="true" signature="457:502" placeholder="select * fro... status" />
+            <marker date="1460562652000" expanded="true" signature="518:561" placeholder="SELECT `sett... settings" />
+          </folding>
         </state>
       </provider>
     </entry>

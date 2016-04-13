@@ -32,8 +32,6 @@ Last Revision: 6 April 2016
             }).responseText;
 
 
-            //parse the json array
-
             scheduleData = JSON.parse(scheduleData);
             if(scheduleData.length != 0) {
                 console.log(scheduleData);

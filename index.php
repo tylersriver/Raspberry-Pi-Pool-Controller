@@ -269,6 +269,7 @@ Last Revision: 12 April 2016
             <h4>Temperature</h4>
             <div id="tempGauges">
             </div>
+
         </div>
         <div class="tile">
             <div id="buttonControlTile">

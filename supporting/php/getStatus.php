@@ -23,9 +23,15 @@ $con = new mysqli($db_host, $db_user, $db_password, $db_database);
 $sql = "select * from status order by id desc limit 1";
 $sqlQuery = "SELECT `settings`.`interrupt` FROM settings";
 
+//these lines execute our SQL queries in the database and return our data
 $queryResult = mysqli_query($con,$sqlQuery);
 $exec = mysqli_query($con,$sql);
 
+
+//code here for getting current temperature setting
+
+
+// these lines are for parsing the data that SQL has returned to us. 
 $settings = array();
 while($data = mysqli_fetch_array($queryResult)) {
 
