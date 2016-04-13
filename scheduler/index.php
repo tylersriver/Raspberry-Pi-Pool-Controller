@@ -72,9 +72,11 @@ Last Revision: 6 April 2016
                 //get the values we need
                 var start = scheduleData[0].start;
                 var stop = scheduleData[0].stop;
+                var setpoint = scheduleData[0].setpoint;
                 // var day = scheduleData.
                 $('#startTime').val(start);
                 $('#stopTime').val(stop);
+                $('#setpoint').val(setpoint);
 
 
 
@@ -138,10 +140,12 @@ Last Revision: 6 April 2016
                 var ids = $('#selectable .ui-selected').map(function () {
                     return $(this).data('userid');
                 });
+                console.log($('#setpoint').val());
                 var data = {
                     days: ids.toArray(),
                     startTime: $('#startTime').val(),
-                    stopTime: $('#stopTime').val()
+                    stopTime: $('#stopTime').val(),
+                    setpoint: $('#setpoint').val()
                 };
                 console.log(data);
                 console.log(JSON.stringify(data));
@@ -157,7 +161,8 @@ Last Revision: 6 April 2016
                     data: {
                         days: ids.toArray(),
                         startTime: $('#startTime').val(),
-                        stopTime: $('#stopTime').val()
+                        stopTime: $('#stopTime').val(),
+                        setpoint: $('#setpoint').val()
                     },
                     success:function(result)//we got the response
                     {
@@ -290,7 +295,24 @@ Last Revision: 6 April 2016
 
 
                 <p>Hold "ctrl" (Command on Mac) to select multiple days.</p>
-                <p><button>Save</button></p>
+                <p>
+                    <button id = "saveBtn">Save</button>
+
+                    <div id = "tempSetting">
+                    Heater Set Point
+                    <select id="setpoint">
+                        <option value="50">50</option>
+                        <option value="55">55</option>
+                        <option value="60">60</option>
+                        <option value="65">65</option>
+                        <option value="70">70</option>
+                        <option value="75">75</option>
+                        <option value="80">80</option>
+                        <option value="85">85</option>
+                        <option value="90">90</option>
+                    </select>
+                    </div>
+                </p>
                 </div>
             </div>
 

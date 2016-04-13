@@ -25,10 +25,10 @@ while($result = mysqli_fetch_array($exec)) {
     // each column needs to have data inserted via the $temp array
 
 
-    $temp[] = array('day' => $result['day'], 'start' => $result['start'], 'stop' => $result['stop']);
+    $temp[] = array('day' => $result['day'], 'start' => $result['start'], 'stop' => $result['stop'], 'setpoint' => $result['tempSetting']);
 
     // insert the temp array into $rows
-    $rows[] = array('c' => $temp);
+//    $rows[] = array('c' => $temp);
 }
 
 // populate the table with rows of data

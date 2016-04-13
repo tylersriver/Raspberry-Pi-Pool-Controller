@@ -25,6 +25,7 @@ Last Revision: 6 April 2016
 
           $startTime = $_POST["startTime"] . ":00";
           $stopTime = $_POST["stopTime"] . ":00";
+          $setPoint = $_POST["setpoint"];
 
           $daysArray = $_POST["days"];
 
@@ -56,7 +57,7 @@ Last Revision: 6 April 2016
                       $dayNum = "6";
               }
 
-              $sqlQuery = "INSERT INTO schedule (day, start, stop, interrupt) VALUES ('{$dayNum}', '{$startTime}', '{$stopTime}', '0')";
+              $sqlQuery = "INSERT INTO schedule (day, start, stop, interrupt, tempSetting) VALUES ('{$dayNum}', '{$startTime}', '{$stopTime}', '0', '{$setPoint}')";
              //    $sqlQuery = "INSERT INTO schedule (day, start, stop) VALUES ('0', '10:15:00', '10:30:00')";
 
         //      echo $sqlQuery;

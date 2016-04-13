@@ -36,7 +36,7 @@ if(isset($_POST['value']))
     }
     if($pump === 1)
     {
-        $query="INSERT INTO status (datetime, pump, heater) VALUES (now(), $pump, $value)";
+        $query="INSERT INTO status (datetime, pump, heater) VALUES (now()-5, $pump, $value)";
     //    $query="INSERT INTO status (datetime, pump, heater) VALUES (now(), $value, $state)";
         $qresult = $mysqli->query($query);
     }

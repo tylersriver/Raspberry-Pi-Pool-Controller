@@ -156,14 +156,7 @@ Last Revision: 5 April 2016
         </div>
         <div class="tile">
             <h4>Manual Temperature Setting</h4>
-            <select id="tempSetting">
-                <option value="60">60</option>
-                <option value="65">65</option>
-                <option value="70">70</option>
-                <option value="75">75</option>
-                <option value="80">80</option>
-                <option value="85">85</option>
-            </select>
+            
         </div>
         <div class="doublewidthTile">
             <h4>Automatic Water Circulation</h4>

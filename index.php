@@ -6,7 +6,7 @@ Preston Kemp
 Tyler Sriver
 Embedded Systems Design SP2016
 
-Last Revision: 30 March 2016
+Last Revision: 12 April 2016
 -->
 <head>
     <title>Pool Dashboard</title>
@@ -154,14 +154,9 @@ Last Revision: 30 March 2016
         $(document).ready(function () {
             $('#myonoffswitch3').click(function () {
                 var myonoffswitch = $('#myonoffswitch3').val();
-
                 //set both Pump and Heater to off
-
-
-
                 if ($("#myonoffswitch3:checked").length == 1) {
                     var b = "1";
-
                     $('#myonoffswitch2').prop("disabled", false);
                     $('#myonoffswitch').prop("disabled", false);
                     $('.buttonContainer:nth-child(1)').fadeTo(500, 1);
@@ -177,6 +172,22 @@ Last Revision: 30 March 2016
                     $('.buttonContainer:nth-child(2)').fadeTo(500, .2);
                     $('#myonoffswitch').prop("disabled", true);
                     $('.buttonContainer:nth-child(1)').fadeTo(500, .2);
+                    $.ajax({
+                        type: "POST",
+                        url: "supporting/php/equipment_update/heaterUpdate.php",
+                        data: "value=" + 0,
+                        success: function (html) {
+                            $("#display").html(html).show();
+                        }
+                    });
+                    $.ajax({
+                        type: "POST",
+                        url: "supporting/php/equipment_update/pumpUpdate.php",
+                        data: "value=" + 0,
+                        success: function (html) {
+                            $("#display").html(html).show();
+                        }
+                    });
 
                 }
                 $.ajax({

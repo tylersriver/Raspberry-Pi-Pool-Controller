@@ -60,33 +60,39 @@ Last Revision: 8 March 2016
 
 <div id="dashboard">
     <div id="header">
+        <div id="header_padding"></div>
         <h1>Statistics</h1>
+        <div id="widgets">
+            <table>
+                <td>
+                    <div class="nav">
+                        <ul><li><div id="clock"></div></li></ul>
+                    </div>
+                </td>
+                <td> <div class="nav">
+                        <div class="linkButtons">
+                            <ul>
+
+                                <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
+                                <li><a href="/index.php" class="button">Dashboard</a></li>
+                                <li><a href="/settings/index.php" class="button">Settings</a></li>
+                                <li><a href="/stats/index.php" class="button">Stats</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </table>
+
+
+
     </div>
 
-    <div id="widgets">
-        <table>
-            <td>
-                <div class="nav">
-                    <ul><li><div id="clock"></div></li></ul>
-                </div>
-            </td>
-            <td> <div class="nav">
-                    <ul>
-                        <div>
-                            <li><a href="/scheduler/index.php" class="button">Scheduler</a></li>
-                            <li><a href="/index.php" class="button">Dashboard</a> </li>
-                            <li><a href="/settings/index.php" class="button">Settings</a></li>
-                            <li><a href="/stats/index.php" class="button">Stats</a></li>
-                        </div>
-                    </ul>
-                </div>
-            </td>
-        </table>
 
+</div>
+    <div id="widgets">
         <div class="doublewidthTile">
             <div id="columnchart_material"></div>
         </div>
     </div>
-</div>
 </body>
 </html>

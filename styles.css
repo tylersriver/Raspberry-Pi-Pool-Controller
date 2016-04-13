@@ -380,3 +380,15 @@ a.button {
 .navButtons{
     align-content: center;
 }
+
+#saveBtn
+{
+    float: right;
+}
+
+#tempSetting
+{
+    float: left;
+    margin-left: 125px;
+    margin-top:0px;
+}
