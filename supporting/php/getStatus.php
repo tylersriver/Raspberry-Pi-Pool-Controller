@@ -21,30 +21,38 @@ $db_password = "rn4R9EfAarJpY5VwY8rnBlL2";
 $db_database = "equipment";
 $con = new mysqli($db_host, $db_user, $db_password, $db_database);
 $sql = "select * from status order by id desc limit 1";
+$sql2 = "select * from schedule order by id desc limit 1";
 $sqlQuery = "SELECT `settings`.`interrupt` FROM settings";
 
 //these lines execute our SQL queries in the database and return our data
 $queryResult = mysqli_query($con,$sqlQuery);
 $exec = mysqli_query($con,$sql);
-
+$exec3 = mysqli_query($con, $sql2);
 
 //code here for getting current temperature setting
 
-
 // these lines are for parsing the data that SQL has returned to us. 
 $settings = array();
+$temperature = array();
 while($data = mysqli_fetch_array($queryResult)) {
 
     $settings = array('manual' => $data['interrupt']);
 }
 
+while($temp = mysqli_fetch_array($exec3)) {
+
+    $temperature = array('setPoint' => $temp['tempSetting']);
+}
+
+
 $table = array();
 
 while($result = mysqli_fetch_array($exec)) {
     $table = array(
-        array('equipment' => 'pump', 'status' => $result['pump']),
-        array('equipment' => 'heater', 'status' => $result['heater']),
-        $settings
+        array('equipment' => 'pump', 'status' => $result['pump'], 'time' => $result['datetime']),
+        array('equipment' => 'heater', 'status' => $result['heater'], 'time' => $result['datetime']),
+        $settings,
+        $temperature
     );
 }
 

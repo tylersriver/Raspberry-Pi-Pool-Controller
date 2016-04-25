@@ -154,15 +154,17 @@ Last Revision: 5 April 2016
                 }
             </script>
         </div>
-        <div class="tile">
+        <!--<div class="tile">
             <h4>Manual Temperature Setting</h4>
             
         </div>
-        <div class="doublewidthTile">
+        -->
+       <!-- <div class="doublewidthTile">
             <h4>Automatic Water Circulation</h4>
             <h6>This secton can be used to automatically circulate water for a specified amount of time every hour.</h6>
             <input type="range" min="10" max="1000" step="10" value="300" data-orientation="vertical"/>
         </div>
+        --->
 
     </div>
 </div>

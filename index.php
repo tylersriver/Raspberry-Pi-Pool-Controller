@@ -38,6 +38,7 @@ Last Revision: 12 April 2016
         function startInterval() {
             setInterval('updateTime();', 1000);
         }
+
         startInterval();//start it right away
         function updateTime() {
             var nowMS = now.getTime();
@@ -53,6 +54,19 @@ Last Revision: 12 April 2016
     </script>
 
     <script type="text/javascript">
+        function convertMS(ms) {
+            var d, h, m, s;
+            s = Math.floor(ms / 1000);
+            m = Math.floor(s / 60);
+            s = s % 60;
+            h = Math.floor(m / 60);
+            m = m % 60;
+            d = Math.floor(h / 24);
+            h = h % 24;
+            return { d: d, h: h, m: m, s: s };
+        }
+
+
         $(document).ready(function () {
                 var buttonData = $.ajax({
                     url: "supporting/php/getStatus.php",
@@ -69,7 +83,50 @@ Last Revision: 12 April 2016
                 //get the values we need
                 var pump = buttonData[0].status;
                 var heater = buttonData[1].status;
+                var setPoint = buttonData[3].setPoint;
                 var interrupt = buttonData[2].manual;
+            console.log(pump);
+            console.log(heater);
+
+
+
+
+
+            setInterval(function ()
+            {
+                var pumpTime = new Date(buttonData[0].time).getTime()-now.getTime();
+                var heaterTime = new Date(buttonData[1].time).getTime()-now.getTime();
+
+                var pumpState;
+                var heaterState;
+
+                if(pump == 1)
+                {
+                    pumpState = "ON";
+                }
+                else
+                {
+                    pumpState = "OFF";
+                }
+                if(heater == 1)
+                {
+                    heaterState = "ON";
+                }
+                else
+                {
+                    heaterState = "OFF";
+                }
+
+                pumpTime = convertMS(-pumpTime);
+                heaterTime = convertMS(-heaterTime);
+
+                $("#heaterStateTime").html("<h4>Heater " + heaterState + " for: " + heaterTime.d +":"+ heaterTime.h + ":" + heaterTime.m + ":" + heaterTime.s + "</h4>");
+                $("#pumpStateTime").html("<h4>Pump  " + pumpState + " for: " + pumpTime.d +":"+ pumpTime.h + ":" + pumpTime.m + ":" + pumpTime.s +  "</h4>");
+
+            }, 1000);
+
+
+
 
                 var pumpState = "";
                 var heaterState = "";
@@ -86,6 +143,8 @@ Last Revision: 12 April 2016
                      heaterState = "checked";
                      document.getElementById("myonoffswitch3").checked = true;
               }
+
+
 
 
 
@@ -246,6 +305,10 @@ Last Revision: 12 April 2016
                         <div class="nav">
                             <ul><li><div id="clock"></div></li></ul>
                         </div>
+                        <div class="stateTime" id="heaterStateTime">
+
+                        </div>
+
                     </td>
                     <td> <div class="nav">
                             <div class="linkButtons">
@@ -258,17 +321,20 @@ Last Revision: 12 April 2016
                                 </ul>
                             </div>
                         </div>
+                        <div class="stateTime" id="pumpStateTime">
+
+                        </div>
                     </td>
                 </table>
             </div>
     </div>
 
     <div id="widgets">
-
         <div class="tile">
             <h4>Temperature</h4>
             <div id="tempGauges">
             </div>
+            <div id ="heaterSetPoint"></div>
 
         </div>
         <div class="tile">

@@ -46,7 +46,7 @@ if(isset($_POST['value']))
         //  $gpio_on = shell_exec("/usr/local/bin/gpio -g write 25 1");
         echo "Pump is on";
     }
-    $query="INSERT INTO status (datetime, pump, heater) VALUES (now()-5, $value, $state)";
+    $query="INSERT INTO status (datetime, pump, heater) VALUES (now(), $value, $state)";
    // $query="INSERT INTO status (datetime, pump, heater) VALUES (now(), 1 , 1)";
     echo "query executed";
     echo $query;
