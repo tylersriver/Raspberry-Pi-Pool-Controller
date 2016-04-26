@@ -86,8 +86,8 @@ Last Revision: 6 April 2016
 
     <script>
         $(function() {
-            $('#startTime').timepicker({'step': 15, 'timeFormat': 'H:i'});
-            $('#stopTime').timepicker({'step': 15, 'timeFormat': 'H:i'});
+            $('#startTime').timepicker({'step': 1, 'timeFormat': 'H:i'});
+            $('#stopTime').timepicker({'step': 1, 'timeFormat': 'H:i'});
 
             $('#startTime').on('changeTime', function() {
                     console.log($(this).val());
@@ -299,6 +299,7 @@ Last Revision: 6 April 2016
                     <div id = "tempSetting">
                     Heater Set Point
                     <select id="setpoint">
+                        <option value="0">OFF</option>
                         <option value="50">50</option>
                         <option value="55">55</option>
                         <option value="60">60</option>
