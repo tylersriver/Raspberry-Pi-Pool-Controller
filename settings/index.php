@@ -156,7 +156,7 @@ Last Revision: 5 April 2016
         </div>
         <!--<div class="tile">
             <h4>Manual Temperature Setting</h4>
-            
+
         </div>
         -->
        <!-- <div class="doublewidthTile">
