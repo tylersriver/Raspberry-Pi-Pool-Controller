@@ -9,3 +9,4 @@
 
 ![Alt text](https://github.com/tylersriver/Raspberry-Pi-Pool-Controller/blob/master/Diagrams/Screen%20Shot%202016-04-15%20at%2011.18.52%20PM.png "Sofware Diagram")
 
+![Alt text](https://github.com/tylersriver/Raspberry-Pi-Pool-Controller/blob/master/Diagrams/Screen%20Shot%202016-04-15%20at%2011.11.09%20PM.png "Sofware Diagram")
