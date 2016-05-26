@@ -7,3 +7,5 @@
 
 - Data from the Raspberry was stored in a google SQL database
 
+![Alt text](https://github.com/tylersriver/Raspberry-Pi-Pool-Controller/blob/master/Diagrams/Screen%20Shot%202016-04-15%20at%2011.18.52%20PM.png "Sofware Diagram")
+
